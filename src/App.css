@@ -1,0 +1,112 @@
+.heading{
+  background-color: rgb(177, 0, 0);
+  font-size: 20px;
+  width: 100vw;
+  color: aliceblue;
+  text-align: center;
+ /* border-radius: 0 0 15px 15px;*/
+  font-size: smaller;
+ 
+ 
+}
+h1{
+  padding-top: 5px;
+}
+i{
+  color:rgb(253, 253, 253) !important;
+  font-size:15px !important;
+  }
+
+.sticky{
+  position: fixed;
+  top: 0;
+ 
+ z-index: 1;
+ }
+
+.tm{font-size: 13px;
+  text-align:start;
+}
+h1{
+  padding-bottom: 5px;
+}
+
+.type{
+  
+}
+.btn{
+  justify-content: space-between;
+  
+}
+.button{
+ border: none;
+ margin-left: 3px;
+ padding: 3px;
+ border-left: 2px  solid grey;
+ border-right: 2px  solid grey;
+ background-color: rgb(21, 44, 248);
+ color: white;
+ border-radius: 5px;
+}
+
+.button:focus{
+  background-color: rgb(7, 7, 7);
+ 
+}
+.icon{
+  color:rgb(255, 230, 0) !important;
+  font-size:35px !important;
+}
+
+h2{
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+@media (max-width: 450px) and (min-width:0px){ 
+  
+ .heading{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  
+ z-index: 1;
+ }
+}
+
+.footer {
+  margin-top: 15px;
+  background: #061D25;
+  padding: 10px 0;
+}
+.footer a {
+  color: #70726F;
+  font-size: 20px;
+  padding: 10px;
+  border-right: 1px solid #70726F;
+  transition: all .5s ease;
+}
+.footer a:first-child {
+  border-left: 1px solid #70726F;
+}
+.footer a:hover {
+  color: white;
+}
+
+/*/weather
+
+
+//weather
+
+//let x=getnews.articles;
+//console.log(x);
+
+//date boject
+const date= new Date();
+/*const myyear=date.getFullYear();
+const Days=
+["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
+const myday=Days[date.getDay()];
+const mydate=date.getDate();
+const month = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+const mymonth=month[date.getMonth()];*/
