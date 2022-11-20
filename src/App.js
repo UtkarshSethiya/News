@@ -6,7 +6,23 @@ import News from './components/news';
 //drawer
 /*
 
-
+ const[general,set_general]=useState([]);
+  useEffect(()=>{
+    fetch("https://newsapi.org/v2/everything?q=keyword&apiKey=e031eb172a3e45aaa171ea8cea9b402f")
+    .then(response=>{
+      return response.json();
+    }).then(
+      data=>{
+  
+        set_general(data);
+      }
+    ) .catch(error => {
+      console.log(error)
+    })
+  }
+  ,[]
+  )
+  console.log(general);
 */
 
 function App() {
