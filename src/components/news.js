@@ -14,7 +14,7 @@ return(
         <div className=' col-md-8 col-lg-7 ' > <span className='head' >{props.headline}</span>
         <div className='content'>{props.content}
         <br></br>
-      <button > <a href={props.details}>Readmore</a></button> 
+      <a href={props.details}><button className='smart'>Readmore</button></a>
       
         </div>
         </div>
