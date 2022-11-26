@@ -46,7 +46,7 @@ function App() {
 useEffect(()=>{
 
   
-  fetch("https://newsapi.org/v2/everything?q=keyword&apiKey=e031eb172a3e45aaa171ea8cea9b402f")
+  fetch("https://saurav.tech/NewsAPI/top-headlines/category/general/in.json")
   .then(response=>{
     return response.json();
   }).then(
